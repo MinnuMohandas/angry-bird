@@ -7,7 +7,7 @@ class Ground {
       this.width = width;
       this.height = height;
       World.add(world, this.body);
-      this.image=loadImage("sprites/ground.png");
+      this.image=loadImage("ground.png");
     }
     display(){
       var pos =this.body.position;
